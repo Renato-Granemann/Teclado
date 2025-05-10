@@ -1,3 +1,99 @@
-.titulo{
+body{
+    background-color: gray
+    
+}
+
+.title {
     text-align: center;
 }
+
+.piano {
+    position: relative;
+    width: 400px;
+    height: 200px;
+  }
+  
+  .key {
+    position: absolute;
+    border: 1px solid black;
+  }
+  
+  .white {
+    width: 60px;
+    height: 200px;
+    background: white;
+    z-index: 1;
+  }
+  
+  .black {
+    width: 40px;
+    height: 120px;
+    background: black;
+    z-index: 2;
+  }
+  
+  .nota {
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .nota-tecla-preta{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    color: white;
+  }
+
+.C {
+    left: 0;
+  }
+  
+.C-sharp {
+    left: 40px;
+  }
+
+.D {
+    left: 60px;
+}
+
+.D-sharp {
+    left: 100px
+}
+
+.E {
+    left: 120px
+}
+
+.F {
+    left: 180px
+  }
+
+.F-sharp {
+    left: 220px
+}
+
+.G {
+    left: 240px
+  }
+
+.G-sharp {
+    left: 280px
+}
+
+.A {
+    left: 300px
+  }
+
+.A-sharp {
+    left: 340px
+}
+
+.B {
+    left: 360px
+  }
