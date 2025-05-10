@@ -97,3 +97,11 @@ body{
 .B {
     left: 360px
   }
+
+.para-direita-1 .key {
+    transform: translateX(420px);
+  }
+
+.para-direita-2 .key {
+    transform: translateX(840px);
+}
