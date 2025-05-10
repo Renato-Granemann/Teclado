@@ -1,6 +1,6 @@
 body{
     background-color: gray
-    
+
 }
 
 .title {
@@ -10,98 +10,113 @@ body{
 .piano {
     position: relative;
     width: 400px;
-    height: 200px;
-  }
-  
-  .key {
+    height: 362.5px;
+}
+
+.key {
     position: absolute;
     border: 1px solid black;
-  }
-  
-  .white {
+    
+}
+
+.white {
     width: 60px;
-    height: 200px;
+    height: 362.5px;
     background: white;
     z-index: 1;
-  }
-  
-  .black {
-    width: 40px;
-    height: 120px;
+}
+
+.white:hover {
+    background-color: #ababab;
+}
+
+.black {
+    width: 30px;
+    height: 225px;
     background: black;
     z-index: 2;
-  }
-  
-  .nota {
+}
+
+.black:hover {
+    background-color: #555;
+}
+
+.nota {
     position: absolute;
     bottom: 5px;
     width: 100%;
     text-align: center;
     font-size: 16px;
     color: black;
-  }
-  
-  .nota-tecla-preta{
+}
+
+.nota-tecla-preta{
     position: absolute;
     bottom: 0;
     width: 100%;
     text-align: center;
     font-size: 16px;
     color: white;
-  }
+}
 
 .C {
     left: 0;
-  }
-  
+}
+
 .C-sharp {
-    left: 40px;
-  }
+    left: 45px;
+}
 
 .D {
     left: 60px;
 }
 
 .D-sharp {
-    left: 100px
+    left: 105px;
 }
 
 .E {
-    left: 120px
+    left: 120px;
 }
 
 .F {
     left: 180px
-  }
+}
 
 .F-sharp {
-    left: 220px
+    left: 225px;
 }
 
 .G {
     left: 240px
-  }
+}
 
 .G-sharp {
-    left: 280px
+    left: 285px;
 }
 
 .A {
     left: 300px
-  }
+}
 
 .A-sharp {
-    left: 340px
+    left: 345px;
 }
 
 .B {
     left: 360px
-  }
+}
 
 .para-direita-1 .key {
     transform: translateX(420px);
-  }
+}
 
 .para-direita-2 .key {
     transform: translateX(840px);
+}
+
+.creditos {
+    text-align: center;
+    color: black
+    
 }
